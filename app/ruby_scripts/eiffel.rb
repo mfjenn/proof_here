@@ -1,9 +1,9 @@
-$:.unshift File.dirname(__FILE__) + '/../lib'
+#$:.unshift File.dirname(__FILE__) + '/../lib'
 require 'rubygems'
 require 'google-search'
 # require 'rext'
 
-HTML = File.dirname(__FILE__) + '/views/eiffel/index.html'
+HTML = File.dirname(__FILE__) + 'index.html'
 
 File.open(HTML, 'w+') do |file|
   Google::Search::Image.new(:query => 'me at the eiffel tower').each do |image|

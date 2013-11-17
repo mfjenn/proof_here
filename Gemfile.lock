@@ -36,6 +36,7 @@ GEM
       execjs
     coffee-script-source (1.6.3)
     erubis (2.7.0)
+    eventmachine (1.0.3)
     execjs (2.0.1)
     google-search (1.0.3)
       json
@@ -111,6 +112,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  eventmachine
   google-search
   jbuilder (~> 1.2)
   jquery-rails

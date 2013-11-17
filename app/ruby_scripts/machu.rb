@@ -3,7 +3,7 @@ require 'rubygems'
 require 'google-search'
 require 'rext'
 
-HTML = File.dirname(__FILE__) + '/views/machu/index.html'
+HTML = File.dirname(__FILE__) + '../views/machu/index.html'
 
 File.open(HTML, 'w+') do |file|
   Google::Search::Image.new(:query => 'me at machu picchu').each do |image|

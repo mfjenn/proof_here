@@ -3,7 +3,7 @@ require 'rubygems'
 require 'google-search'
 #require 'rext'
 
-HTML = File.dirname(__FILE__) + '/views/ggb/index.html'
+HTML = File.dirname(__FILE__) + '../views/ggb/index.html'
 
 File.open(HTML, 'w+') do |file|
   Google::Search::Image.new(:query => 'me on the golden gate bridge').each do |image|
